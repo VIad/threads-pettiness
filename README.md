@@ -33,6 +33,7 @@ const listFollowed = arrayFollowed.map((el => el.getElementsByClassName(childEle
 ```
 
 след това Enter за да го изпълниш
+
 Трябва да изпише: undefined.. this is good
 
 --------
