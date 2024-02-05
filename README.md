@@ -53,7 +53,7 @@ const listFollowing = arrayFollowing.map((el => el.getElementsByClassName(childE
 
 const difference = listFollowing.filter((el => !listFollowed.includes(el)))
 
-const unfollowList = arrayFollowing.filter((el => difference.includes(el.getElementsByClassName(childElementClassName)[0].getAttribute("href").substring(2)))).map((el => el.getElementsByClassName(followingListUnfollowButtonClassName)[0]))
+const unfollowButtons = arrayFollowing.filter((el => difference.includes(el.getElementsByClassName(childElementClassName)[0].getAttribute("href").substring(2)))).map((el => el.getElementsByClassName(followingListUnfollowButtonClassName)[0]))
 ```
 Отново Enter за да изпълниш кода и отново трябва да изпише 
 undefined, това е правилно.
@@ -61,7 +61,7 @@ undefined, това е правилно.
 ### Стъпка 4
 copy paste-ни този код в конзолата:
 ```javascript
-unfollowList.forEach((el => el.click()))
+unfollowButtons.forEach((el => el.click()))
 ```
 Enter, и трябва да е готово.
 
