@@ -8,6 +8,8 @@ _noun_
       
         "these awesome moments lift us above the pettiness of the world"
 -----
+(tested & working for Threads | 2.5.2024)
+
 ### Стъпка 1:
 Отиди в страницата на твоя профил. Refresh-ни я
 
