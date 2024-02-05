@@ -1,24 +1,28 @@
 # Pettiness
 _noun_
 1. undue concern with trivial matters, especially of a small-minded or spiteful nature.
+   
     "the sheer pettiness of the officials was quite startling"
+   
     - lack of importance or worth; triviality.
+      
         "these awesome moments lift us above the pettiness of the world"
-
+-----
 ### Стъпка 1:
-Влез в списъка с **твоите последователи.** СКРОЛНИ ДО ДОЛУ (не работи ако не стигнеш до долу)
-
---------
-### Стъпка 2:
 Отвори developer tools на твоя браузър (Обикновенно F12 бутона)
  * При Chrome: десен бутон -> Inspect
  * При друг browser -> Google: How to open developer tools in [browser-name]
-
 Стигни то таб "Console"
 
 **NOTE: Browser-a ще се пробва да те стресне с това, но ти не си путка, и знаеш, че няма проблеми.**
 (Реално абсолютно нищо не "хакваме", това е просто clientside код, който автоматизира кликване на бутончета за 'unfollow' и нищо повече)
 ![alt text for screen readers](https://i.imgur.com/V1jtfxs.png)
+
+--------
+### Стъпка 2:
+Влез в списъка с **твоите последователи.** 
+
+**СКРОЛНИ ДО ДОЛУ (не работи ако не стигнеш до долу)**
 
 Изчисти конзолата и copy-paste-ни следния код вътре:
 ```javascript
