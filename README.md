@@ -57,10 +57,13 @@ const listFollowing = arrayFollowing.map((el => el.getElementsByClassName(childE
 
 const difference = listFollowing.filter((el => !listFollowed.includes(el)))
 
+console.log('ne te sledvat '+ difference.length+ ' choveka, koito ti sledvash. Dosta pedalsko ot tqhna strana')
+
 const unfollowButtons = arrayFollowing.filter((el => difference.includes(el.getElementsByClassName(childElementClassName)[0].getAttribute("href").substring(2)))).map((el => el.getElementsByClassName(followingListUnfollowButtonClassName)[0]))
 ```
-Отново Enter за да изпълниш кода и отново трябва да изпише 
-undefined, това е правилно.
+Отново Enter за да изпълниш кода
+
+Ако всичко е правилно, програмата ще ти каже колко хора не те следват обратно
 
 ### Стъпка 4
 copy paste-ни този код в конзолата:
