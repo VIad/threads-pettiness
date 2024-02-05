@@ -9,6 +9,8 @@ _noun_
         "these awesome moments lift us above the pettiness of the world"
 -----
 ### Стъпка 1:
+Отиди в страницата на твоя профил. Refresh-ни я
+
 Отвори developer tools на твоя браузър (Обикновенно F12 бутона)
  * При Chrome: десен бутон -> Inspect
  * При друг browser -> Google: How to open developer tools in [browser-name]
